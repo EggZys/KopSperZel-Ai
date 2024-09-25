@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DCDCDC;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    margin: 31px 56px 0px 36px;
+}
+
+.header{
+    background-color: #FFB6C1;
+    color: black;
+    height: 112px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: -28px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.input{
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 395px;
+    height: 41px;
+    margin: 31px 56px 0px 36px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 8% 92%;
+    grid-template-rows: 1fr;
+    font-family: "Koh Santepheap", serif;
+}
+.serach_input{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: "Koh Santepheap", serif;
+}
+.image{
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: grid;
+    margin-left: 5px;
+}
+
+.link{
+    color: #000;
+    margin: 31px 56px 0px 36px;
+    text-decoration: none;
+    font-family: "Koh Santepheap", serif;
+}
+
+.img_cart{
+    margin: 31px 56px 0px 36px;
+    background-image: url(../img/cart.svg);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    height: 112px;
+    justify-content: end;
+    font-family: "Koh Santepheap", serif;
+}
+
+.profile_header{
+    margin: 31px 56px 0px 36px;
+}
+
+.first-page{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 92vh;
+  grid-gap: 30px;
+  font-family: "Koh Santepheap", serif;
+}
+
+.page_text{
+    grid-row: span 2;
+    background-image: url(../img/brain.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Koh Santepheap", serif;
+}
+.page_txt{
+    display: grid;
+    align-content: end;
+    justify-content: start;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 31px;
+    max-width: 577px;
+    font-family: "Koh Santepheap", serif;
+}
+.page_img{
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 577px;
+    padding-left: 31px;
+}
+
+.second_page{
+    margin-bottom: 66px;
+}
+
+.spage_tittle{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Kaisei HarunoUmi", serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.card{
+    gap: 27px;
+    width: 323px;
+    border: 2px solid #000;
+    background-color: #FFB6C1;
+    color: #000;
+    border-radius: 15px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_tittle{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-top: 16px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_sub-tittle{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 120px;
+    padding-left: 17px;
+    width: 290px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_end{
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 17px;
+    margin-bottom: 66px;
+    width: 290px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_price{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_buy{
+    width: 290px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin-bottom: 19px;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card2_sub-tittle{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 137px;
+    padding-left: 17px;
+    width: 290px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.tpage_tittle{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Kaisei HarunoUmi", serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+
+.cards_ot{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 95px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_tittle_ot{
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+    margin-left: 14px;
+    margin-top: 9px;
+    gap: 6px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_ot{
+    gap: 27px;
+    width: 323px;
+    border: 2px solid #000;
+    background-color: #FFB6C1;
+    color: #000;
+    border-radius: 15px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_ot-text{
+    margin-top: 18px;
+    margin-left: 7px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.card_ot-stars1{
+    display: flex;
+    align-items: center;
+    margin-top: 129px;
+    margin-left: 16px;
+}
+
+.card_ot-stars2{
+    display: flex;
+    align-items: center;
+    margin-top: 129px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+
+.card_ot-stars3{
+    display: flex;
+    align-items: center;
+    margin-top: 147px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+
+.footer {
+    height: 112px;
+    background-color: #FFB6C1;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px 10px 0 0;
+    font-family: "Koh Santepheap", serif;
+    margin-bottom: -56px;
+    display: flex;
+    align-items: center;
+    gap: 146px;
+    justify-content: space-between; /* add this */
+  }
+
+.contacts{
+    color: #000;
+    font-family: "Koh Santepheap", serif;
+    margin-left: 31px;
+    margin-right: 146px;
+}
+
+.messangers{
+    display: flex;
+    align-items: center;
+    margin-right: 108px;
+}
+
+.sub{
+    font-family: "Koh Santepheap", serif;
+}
+
+.text{
+    margin-bottom: 4px;
+}
+
+.subs {
+    font-family: "Koh Santepheap", serif;
+    background-color: #DCDCDC;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px 16px;
+    margin-bottom: 2px;
+    margin-left: auto; /* add this */
+  }
+
+.btn{
+    background-color: #DCDCDC;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 7px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
